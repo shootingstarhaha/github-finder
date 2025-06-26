@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #0074d9;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 5px solid lightgray;
+  border-top: 5px solid #0074d9;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 10px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.badge {
+  padding: 3px 7px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+.bg-blue { background-color: #0074d9; }
+.bg-green { background-color: #2ecc40; }
+.bg-grey  { background-color: #aaa; }
+
+footer {
+  text-align: center;
+  margin: 20px 0;
+  color: #888;
+}

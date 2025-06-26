@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">GitHub Finder</nav>
+  
+  <div class="container">
+    <h1>Search GitHub Users</h1>
+    <p>Enter a username to fetch a user profile and repos</p>
+    <input type="text" id="searchUser" placeholder="Enter GitHub username..." />
+    
+    <div id="spinner" class="spinner hidden"></div>
+    <div id="profile"></div>
+    <div id="repos"></div>
+  </div>
+
+  <footer>GitHub Finder ⓒ</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
